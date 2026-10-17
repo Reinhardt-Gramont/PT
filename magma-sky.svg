@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#250827"/><stop offset=".3" stop-color="#7d1538"/><stop offset=".66" stop-color="#ed3829"/><stop offset="1" stop-color="#ff821c"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff38b" stop-opacity=".95"/><stop offset=".25" stop-color="#ff9827" stop-opacity=".67"/><stop offset="1" stop-color="#ff4021" stop-opacity="0"/></radialGradient>
+ <linearGradient id="ridge"><stop stop-color="#180e22"/><stop offset=".55" stop-color="#381027"/><stop offset="1" stop-color="#65182b"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="30"/></filter>
+</defs>
+<path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+<ellipse cx="800" cy="652" rx="760" ry="248" fill="url(#glow)" filter="url(#soft)" opacity=".95"/>
+<ellipse cx="865" cy="713" rx="640" ry="116" fill="#ffb52c" opacity=".45" filter="url(#soft)"/>
+<path fill="#b22a36" opacity=".68" d="M0 496 75 472 135 491 209 418 277 469 361 430 425 463 510 388 591 461 665 437 741 481 812 392 872 457 963 419 1037 477 1107 422 1188 461 1260 395 1339 470 1416 422 1490 475 1563 433 1600 449v250H0z"/>
+<path fill="url(#ridge)" d="M0 624 55 595 99 613 160 547 212 595 277 532 329 580 397 517 443 565 505 531 567 585 624 520 689 581 739 545 796 603 848 512 906 576 960 543 1024 600 1085 525 1146 576 1200 518 1272 582 1328 524 1393 574 1450 532 1510 591 1564 541 1600 563v251H0z"/>
+<path fill="#210c1c" d="m0 688 87-36 59 20 82-95 59 92 76-42 67 45 98-91 81 79 80-36 55 57 71-103 80 81 61-35 64 51 81-80 76 59 53-81 91 70 52-50 78 65v183H0z"/>
+<rect y="827" width="1600" height="173" fill="#40101e"/>
+<ellipse cx="813" cy="875" rx="870" ry="121" fill="#ff531b" opacity=".78" filter="url(#soft)"/>
+<path fill="#ff9b16" d="M0 845q190-29 379 8t371-1q183-44 351 3t499-14v159H0z"/>
+<path fill="#ffe444" opacity=".86" d="M0 868q216-32 389 2t345 3q179-30 356-2t510-8v36q-246 27-494 7t-383 11q-191 20-386-6T0 931z"/>
+</svg>

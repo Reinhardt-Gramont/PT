@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#aab7f3"/><stop offset=".43" stop-color="#c7d3f5"/><stop offset=".78" stop-color="#e3eafa"/><stop offset="1" stop-color="#d6e8f3"/></linearGradient>
+ <radialGradient id="mist"><stop stop-color="#fff" stop-opacity=".78"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+ <linearGradient id="far" x2="0" y2="1"><stop stop-color="#a3b9ec"/><stop offset="1" stop-color="#d5e2f4"/></linearGradient>
+</defs>
+<path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+<ellipse cx="810" cy="491" rx="900" ry="288" fill="url(#mist)"/>
+<path fill="#b6c7ed" opacity=".6" d="m0 540 94-32 93 18 122-52 84 32 126-82 74 44 132-20 82-60 77 35 101-24 95 39 82-29 103 43 89-24 76 43 70-25v268H0z"/>
+<path fill="url(#far)" d="m0 602 102-48 100 36 119-78 87 46 94-40 94 54 106-70 91 43 97-32 119 50 99-35 94 47 87-20 108 57 103-34v265H0z"/>
+<path fill="#e6eef9" d="m0 663 107-25 112 25 93-66 107 47 109-20 109 54 104-62 91 37 104-23 114 62 95-38 116 50 125-14 114 55v235H0z"/>
+<path fill="#f3f8fc" opacity=".82" d="M0 758q170-52 344-13t327-6q201-48 386 7t321-8q110-25 222 14v248H0z"/>
+<ellipse cx="812" cy="722" rx="880" ry="153" fill="url(#mist)" opacity=".65"/>
+</svg>

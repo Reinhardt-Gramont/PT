@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice">
+<defs>
+ <radialGradient id="sky"><stop stop-color="#17163c"/><stop offset=".52" stop-color="#080d25"/><stop offset="1" stop-color="#03050f"/></radialGradient>
+ <radialGradient id="nebula"><stop stop-color="#ff69e1" stop-opacity=".8"/><stop offset=".22" stop-color="#a735d4" stop-opacity=".55"/><stop offset=".62" stop-color="#4c36e6" stop-opacity=".2"/><stop offset="1" stop-color="#273ce8" stop-opacity="0"/></radialGradient>
+ <radialGradient id="blue"><stop stop-color="#5ee8ff" stop-opacity=".58"/><stop offset=".5" stop-color="#3153ff" stop-opacity=".23"/><stop offset="1" stop-color="#3153ff" stop-opacity="0"/></radialGradient>
+ <pattern id="stars" width="213" height="181" patternUnits="userSpaceOnUse">
+  <g fill="#dbe9ff">
+   <circle cx="4" cy="8" r=".7" opacity=".7"/><circle cx="22" cy="56" r=".55" opacity=".4"/><circle cx="38" cy="123" r=".8" opacity=".65"/><circle cx="54" cy="30" r=".5" opacity=".5"/><circle cx="71" cy="82" r=".65" opacity=".8"/><circle cx="86" cy="161" r=".45" opacity=".6"/><circle cx="102" cy="12" r=".7" opacity=".45"/><circle cx="119" cy="47" r=".55" opacity=".7"/><circle cx="135" cy="106" r=".85" opacity=".55"/><circle cx="153" cy="25" r=".45" opacity=".65"/><circle cx="168" cy="72" r=".65" opacity=".38"/><circle cx="189" cy="145" r=".75" opacity=".75"/><circle cx="205" cy="39" r=".5" opacity=".48"/>
+   <circle cx="10" cy="99" r=".4" opacity=".55"/><circle cx="29" cy="169" r=".65" opacity=".5"/><circle cx="47" cy="68" r=".45" opacity=".4"/><circle cx="63" cy="145" r=".65" opacity=".45"/><circle cx="80" cy="20" r=".4" opacity=".68"/><circle cx="97" cy="113" r=".55" opacity=".5"/><circle cx="112" cy="75" r=".4" opacity=".72"/><circle cx="128" cy="174" r=".5" opacity=".6"/><circle cx="146" cy="59" r=".45" opacity=".43"/><circle cx="161" cy="130" r=".55" opacity=".62"/><circle cx="177" cy="8" r=".42" opacity=".56"/><circle cx="196" cy="92" r=".5" opacity=".65"/><circle cx="207" cy="171" r=".42" opacity=".5"/>
+  </g>
+  <g fill="#fff"><circle cx="31" cy="27" r="1.35"/><circle cx="177" cy="112" r="1.1"/><circle cx="91" cy="58" r="1.5"/><circle cx="148" cy="158" r="1.25"/></g>
+ </pattern>
+</defs>
+<path fill="url(#sky)" d="M0 0h1600v1000H0z"/>
+<ellipse cx="790" cy="415" rx="730" ry="350" fill="url(#nebula)" transform="rotate(-24 790 415)"/>
+<ellipse cx="1270" cy="285" rx="590" ry="310" fill="url(#blue)" transform="rotate(-35 1270 285)"/>
+<ellipse cx="350" cy="730" rx="540" ry="250" fill="url(#nebula)" opacity=".38" transform="rotate(-18 350 730)"/>
+<path fill="url(#stars)" d="M0 0h1600v1000H0z"/>
+<path fill="url(#stars)" d="M0 0h1600v1000H0z" transform="translate(103 72) scale(.91)" opacity=".72"/>
+<g fill="#fff" opacity=".9"><circle cx="181" cy="191" r="2.3"/><circle cx="425" cy="88" r="1.8"/><circle cx="762" cy="257" r="2.1"/><circle cx="1124" cy="128" r="1.8"/><circle cx="1393" cy="448" r="2.5"/><circle cx="957" cy="754" r="2"/><circle cx="317" cy="625" r="1.8"/><circle cx="1510" cy="805" r="1.8"/></g>
+<rect width="1600" height="1000" fill="url(#sky)" opacity=".12"/>
+</svg>
